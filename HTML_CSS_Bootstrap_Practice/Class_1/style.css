@@ -1,0 +1,107 @@
+/* ============== NAV BAR SECTION START ====================== */
+.navbar{
+    background-color:#D32F2F !important;
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.fa-shopping-cart,.fa-user-circle-o {
+    font-size: 32px !important;
+}
+/* ============== NAV BAR SECTION END ====================== */
+
+/* ============== FREE SHIPPING SECTION START ====================== */
+
+.fa-truck,.fa-headphones, .fa-thumbs-up {
+    font-size: 50px !important;
+    margin-right: 20px;
+    color: #D32F2F !important;
+}
+h3 {
+    color: #D32F2F;
+}
+
+
+.card1, .card2, .card3 {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 4px 5px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.mainCard {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* ============== FREE SHIPPING SECTION END ====================== */
+
+/* ============== NEW ARRIVALS / FEATURE PRODUCTS SECTION START ====================== */
+.newArrivals {
+    margin-top: 50px;
+}
+
+.card{
+    width: 250px;
+    height: auto;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.card-text {
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color: #D32F2F;
+}
+.heading {
+    text-align: center;
+    font-weight: bold;
+    color: #D32F2F;
+    margin: 20px;
+
+}
+.heading>h1 {
+    text-shadow: 2px 2px 4px black;
+}
+/* ============== FREE SHIPPING / FEATURE PRODUCTS SECTION END ====================== */
+
+/* ============== FOOTER SECTION START ====================== */
+
+.footer {
+    width: 100%;
+    background-color: #D32F2F;
+    height: 60px;
+}
+.footer>div {
+    text-align: center;
+    align-items: center;
+}
+h4{
+    color: white;
+}
+/* ============== FOOTER SECTION END ====================== */
+
+/* ============== MEDIA QUERY SECTION START ====================== */
+
+@media screen and (max-width: 600px){
+    .card1, .card2, .card3 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 800px){
+    .card {
+        width: 100%;
+    }
+}
+/* ============== MEDIA QUERY SECTION END ====================== */
+
+
+
